@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+  height: 84px;
+  width: 1173px;
+    &__menu{
+        display: flex;
+        padding-top: 23px;
+        li {
+            list-style-type: none;
+            margin-right: 45px; 
+            :hover {
+                    font-weight: bold;
+                    color: #608AF5;
+                    text-shadow: none;
+                }
+            a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                text-align: center;
+                letter-spacing: 0.055em;
+                color: #212121;
+                
+                 text-shadow: 1px 1px 2px #000000;
+               
+             } 
+        } 
+    }
+    &__logo {
+        margin-right: 326px;
+    }
+
+    
+}
+
+.hamburger {
+    display: none
+}
+    

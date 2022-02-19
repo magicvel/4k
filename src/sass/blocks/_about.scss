@@ -1,0 +1,37 @@
+.about {
+    background-image: url('../img/Background.png');
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 41px;
+        width: 1167px;
+        height: 467px;
+    }
+    &__me {
+        margin-top: 84px;
+        width: 600px;
+        height: 357px;
+        h2 {
+            font-weight: normal;
+            font-size: 35px;
+            letter-spacing: 0.005em;
+            color: #002265;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 75px;
+            letter-spacing: 0.005em;
+            color: #002265;
+        }
+        p {
+            font-weight: normal;
+            font-size: 23px;
+            line-height: 34px;
+            letter-spacing: 0.015em;
+            color: #082032;
+        }
+
+    }
+}
