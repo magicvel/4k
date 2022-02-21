@@ -7,17 +7,20 @@
     &__menu{
         display: flex;
         padding-top: 23px;
+        &__li {
+            width: 122px;
+            text-align: end;
+        }
         li {
             list-style-type: none;
             margin-right: 45px; 
             :hover {
-                    font-weight: bold;
+                    font-weight: 400;
                     color: #608AF5;
                     text-shadow: none;
                 }
             a {
-                font-style: normal;
-                font-weight: 400;
+                font-weight: 100;
                 font-size: 25px;
                 text-align: center;
                 letter-spacing: 0.055em;
