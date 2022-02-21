@@ -73,14 +73,11 @@
     }
   
 }
-
-
 @media (max-width: 769px) {
     .container {
         width: 740px;
     }
     .navbar {
-
         width: 740px;
         &__logo {
             margin-right: 112px;
@@ -106,8 +103,7 @@
         &__content {
             width: 740px;
             height: 207px;
-            margin-left: 17px;
-            
+            margin-left: 17px; 
         }
         &__me {
             margin-top: 21px;
@@ -124,7 +120,6 @@
                 font-size: 14px;
                 line-height: 21px;  
             }
-    
         }
         &__img {
             width: 290px;
@@ -134,17 +129,13 @@
         }
      }
      .passions {
-
         width: 740px;
-
-        
         &__block {
             position: flex;
             flex-wrap: wrap;
             width: 740px;
             padding-top: 30px;
-            padding-bottom:94px;
-            
+            padding-bottom:94px;    
         }
         &__card {
             width: 347px;
@@ -161,12 +152,10 @@
     }
   
 }
-
 @media (max-width: 428px) {
     .container {
         width: 400px;
     }
-  
   .navbar {
     padding: 14px 0 ;
     margin-top: 0px;
@@ -174,8 +163,7 @@
     &__logo {
         height: 38px;
         top: 20px
-    }
-    
+    }  
     &__menu {
         position: fixed;
         flex-direction: column;
@@ -209,8 +197,6 @@
     height: 45px;
     font-size: 18px;
 }
-
-
 .hamburger {
   display: block;
   position: absolute;
@@ -242,10 +228,7 @@
           }   
     }  
   }
-
 .about {
-
-
     width: 400px;
     &__content {
         height: 453px;
@@ -253,7 +236,6 @@
         display: flex; 
         flex-direction:column-reverse;
         margin-left: 17px;
-        
     }
     &__me {
         margin-top: 21px;
@@ -270,7 +252,6 @@
             font-size: 14px;
             line-height: 21px;  
         }
-
     }
     &__img {
         width: 290px;
@@ -280,22 +261,18 @@
     }
  }
  .passions {
-
     width: 400px;
-
     h2 {
         padding-top: 70px;
         font-size: 25px;
     }
     &__block {
-
         width: 400px;
         position: flex;
         flex-direction: column;
         align-items: center;
         padding-top: 30px;
         padding-bottom:94px;
-        
     }
     &__card {
         width: 347px;
@@ -308,5 +285,5 @@
     &__img {
         top: 39px;
     }
-}
+ }
 }  
